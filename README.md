@@ -56,7 +56,7 @@ This package is a modified version of the great [rakyll/gotest][2].
 
 Changes are mostly related to customization, distribution and some bug fixes.
 
-Make sure to check out the [original work by rakyll][1]!
+Make sure to check out the [original work by rakyll][2]!
 
 [1]: https://github.com/charmbracelet/lipgloss
 [2]: https://github.com/rakyll/gotest
