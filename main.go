@@ -58,7 +58,7 @@ func gotest(args []string) int {
 
 	if err := cmd.Start(); err != nil {
 		log.Print(err)
-        wg.Done()
+		wg.Done()
 		return 1
 	}
 
@@ -118,7 +118,8 @@ func parse(line string) {
 			return
 		}
 
-	case strings.HasPrefix(trimmed, "--- PASS"): // passed
+    // passed
+	case strings.HasPrefix(trimmed, "--- PASS"):
 		fallthrough
 	case strings.HasPrefix(trimmed, "ok"):
 		fallthrough
